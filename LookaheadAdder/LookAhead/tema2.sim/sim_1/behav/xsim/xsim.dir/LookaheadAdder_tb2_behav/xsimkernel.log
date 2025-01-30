@@ -1,0 +1,7 @@
+Running: xsim.dir/LookaheadAdder_tb2_behav/xsimk.exe -simmode gui -wdb LookaheadAdder_tb2_behav.wdb -simrunnum 0 -socket 53634
+Design successfully loaded
+Design Loading Memory Usage: 7324 KB (Peak: 7324 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 7904 KB (Peak: 7904 KB)
+Simulation CPU Usage: 0 ms

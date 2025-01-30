@@ -1,0 +1,1 @@
+-wto "e8305be21abf4e358837ee089d942c60" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "WallaceTreeMultiplier_tb_behav" "xil_defaultlib.WallaceTreeMultiplier_tb" -log "elaborate.log" 

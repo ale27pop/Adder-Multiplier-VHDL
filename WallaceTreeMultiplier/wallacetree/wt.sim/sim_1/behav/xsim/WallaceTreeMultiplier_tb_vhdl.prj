@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../tema2_wt.srcs/sources_1/new/FullAdder.vhd" \
+"../../../../tema2_wt.srcs/sources_1/new/WallaceTreeMultiplier.vhd" \
+"../../../../tema2_wt.srcs/sim_1/new/testbench.vhd" \
+
+# Do not sort compile order
+nosort

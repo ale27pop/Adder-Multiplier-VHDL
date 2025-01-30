@@ -1,0 +1,91 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Nov 14 18:54:31 2024
+# Process ID: 6296
+# Current directory: C:/Users/aly27/OneDrive/Desktop/UT/SCS/HW2/Wallace/tema2_wt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22284 C:\Users\aly27\OneDrive\Desktop\UT\SCS\HW2\Wallace\tema2_wt\tema2_wt.xpr
+# Log file: C:/Users/aly27/OneDrive/Desktop/UT/SCS/HW2/Wallace/tema2_wt/vivado.log
+# Journal file: C:/Users/aly27/OneDrive/Desktop/UT/SCS/HW2/Wallace/tema2_wt\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/aly27/OneDrive/Desktop/UT/SCS/HW2/Wallace/tema2_wt/tema2_wt.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/aly27/OneDrive/Desktop/UT/SCS/tema2_wt' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 793.152 ; gain = 202.082
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aly27/OneDrive/Desktop/UT/SCS/HW2/Wallace/tema2_wt/tema2_wt.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'WallaceTreeMultiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aly27/OneDrive/Desktop/UT/SCS/HW2/Wallace/tema2_wt/tema2_wt.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj WallaceTreeMultiplier_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/aly27/OneDrive/Desktop/UT/SCS/HW2/Wallace/tema2_wt/tema2_wt.srcs/sources_1/new/FullAdder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FullAdder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/aly27/OneDrive/Desktop/UT/SCS/HW2/Wallace/tema2_wt/tema2_wt.srcs/sources_1/new/WallaceTreeMultiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'WallaceTreeMultiplier'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/aly27/OneDrive/Desktop/UT/SCS/HW2/Wallace/tema2_wt/tema2_wt.srcs/sim_1/new/testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'WallaceTreeMultiplier_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aly27/OneDrive/Desktop/UT/SCS/HW2/Wallace/tema2_wt/tema2_wt.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto e8305be21abf4e358837ee089d942c60 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot WallaceTreeMultiplier_tb_behav xil_defaultlib.WallaceTreeMultiplier_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture structural of entity xil_defaultlib.WallaceTreeMultiplier [wallacetreemultiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.wallacetreemultiplier_tb
+Built simulation snapshot WallaceTreeMultiplier_tb_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/aly27/OneDrive/Desktop/UT/SCS/HW2/Wallace/tema2_wt/tema2_wt.sim/sim_1/behav/xsim/xsim.dir/WallaceTreeMultiplier_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Nov 14 18:56:17 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aly27/OneDrive/Desktop/UT/SCS/HW2/Wallace/tema2_wt/tema2_wt.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "WallaceTreeMultiplier_tb_behav -key {Behavioral:sim_1:Functional:WallaceTreeMultiplier_tb} -tclbatch {WallaceTreeMultiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source WallaceTreeMultiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'WallaceTreeMultiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 798.211 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 14 19:32:28 2024...

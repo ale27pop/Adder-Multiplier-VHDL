@@ -1,0 +1,1 @@
+-wto "8af3e12f3bb64730908ba1975a3fd4ab" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "LookaheadAdder_tb_behav" "xil_defaultlib.LookaheadAdder_tb" -log "elaborate.log" 

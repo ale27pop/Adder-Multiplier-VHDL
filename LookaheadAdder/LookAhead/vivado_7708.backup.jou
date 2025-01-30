@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Oct 31 11:12:24 2024
+# Process ID: 7708
+# Current directory: C:/Users/aly27/OneDrive/Desktop/UT/SCS/tema2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2276 C:\Users\aly27\OneDrive\Desktop\UT\SCS\tema2\tema2.xpr
+# Log file: C:/Users/aly27/OneDrive/Desktop/UT/SCS/tema2/vivado.log
+# Journal file: C:/Users/aly27/OneDrive/Desktop/UT/SCS/tema2\vivado.jou
+#-----------------------------------------------------------
+ststart_guopopen_project C:/Users/aly27/OneDrive/Desktop/UT/SCS/tema2/tema2.xpupupdate_compile_order -fileset sources_update_compile_order -fileset sources_1
+file mkdir C:/Users/aly27/OneDrive/Desktop/UT/SCS/tema2/tema2.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/aly27/OneDrive/Desktop/UT/SCS/tema2/tema2.srcs/sim_1/new/testbench.vhd w ]
+add_files -fileset sim_1 C:/Users/aly27/OneDrive/Desktop/UT/SCS/tema2/tema2.srcs/sim_1/new/testbench.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source LookaheadAdder_tb.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/aly27/OneDrive/Desktop/UT/SCS/tema2/tema2.srcs/sim_1/new/testbech.bcd w ]
+add_files -fileset sim_1 C:/Users/aly27/OneDrive/Desktop/UT/SCS/tema2/tema2.srcs/sim_1/new/testbech.bcd
+set_property file_type VHDL [get_files  C:/Users/aly27/OneDrive/Desktop/UT/SCS/tema2/tema2.srcs/sim_1/new/testbech.bcd]
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files C:/Users/aly27/OneDrive/Desktop/UT/SCS/tema2/tema2.srcs/sim_1/new/testbech.bcd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/aly27/OneDrive/Desktop/UT/SCS/tema2/tema2.srcs/sim_1/new/testbech.bcd
+file delete -force C:/Users/aly27/OneDrive/Desktop/UT/SCS/tema2/tema2.srcs/sim_1/new/testbech.bcd
+remove_files  -fileset sim_1 C:/Users/aly27/OneDrive/Desktop/UT/SCS/tema2/tema2.srcs/sim_1/new/testbech.bcd
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/aly27/OneDrive/Desktop/UT/SCS/tema2/tema2.srcs/sim_1/new/BCDTestBench.vhd w ]
+add_files -fileset sim_1 C:/Users/aly27/OneDrive/Desktop/UT/SCS/tema2/tema2.srcs/sim_1/new/BCDTestBench.vhd
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source LookaheadAdder_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top LookaheadAdder_tb2 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source LookaheadAdder_tb2.tcl
+close_sim
+close_sim

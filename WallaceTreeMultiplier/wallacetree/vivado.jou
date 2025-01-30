@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jan 31 00:30:53 2025
+# Process ID: 40800
+# Current directory: C:/Users/aly27/OneDrive/Desktop/UT/SCS/HW2/WallaceTreeMultiplier/wallacetree
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent40188 C:\Users\aly27\OneDrive\Desktop\UT\SCS\HW2\WallaceTreeMultiplier\wallacetree\wt.xpr
+# Log file: C:/Users/aly27/OneDrive/Desktop/UT/SCS/HW2/WallaceTreeMultiplier/wallacetree/vivado.log
+# Journal file: C:/Users/aly27/OneDrive/Desktop/UT/SCS/HW2/WallaceTreeMultiplier/wallacetree\vivado.jou
+#-----------------------------------------------------------sstart_guioopen_project C:/Users/aly27/OneDrive/Desktop/UT/SCS/HW2/WallaceTreeMultiplier/wallacetree/wt.xpruupdate_compile_order -fileset sources_1
